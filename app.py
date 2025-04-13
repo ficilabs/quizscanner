@@ -213,7 +213,7 @@ def main():
                 st.success("Test graded successfully!")
 
                 # Automatically switch to results tab
-                st.query_params(tab="Test Results")
+                st.experimental_set_query_params(tab="Test Results")
 
             except Exception as e:
                 st.error(f"An error occurred: {e}")
