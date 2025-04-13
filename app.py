@@ -211,6 +211,7 @@ def main():
 
                 # Success message
                 st.success("Test graded successfully!")
+                st.success("Please go to Test Result!")
 
                 # Automatically switch to results tab
                 # st.query_params(tab="Test Results")
